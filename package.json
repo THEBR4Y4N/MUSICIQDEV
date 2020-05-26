@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "@2o3t-core/plugin-third-party": "0.0.3",
     "@angular/animations": "~9.1.4",
     "@angular/common": "~9.1.4",
     "@angular/compiler": "~9.1.4",
@@ -27,6 +28,7 @@
     "angularfire2": "^5.4.2",
     "bootstrap": "^4.5.0",
     "bootswatch": "^4.5.0",
+    "cloudflare": "^2.7.0",
     "firebase": "^7.14.5",
     "font-awesome": "^4.7.0",
     "goog-webfont-dl": "^1.0.3",

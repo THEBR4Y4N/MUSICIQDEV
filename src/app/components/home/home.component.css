@@ -1,0 +1,30 @@
+#titulo1{
+    font-family:'Gill Sans MT';
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+    animation-name: titulo1;
+    animation-duration:3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+@keyframes titulo1{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+#titulo2{
+    font-family:'caligraf';
+    font-size: 50px;    
+    animation-name: titulo1;
+    animation-duration:3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    -webkit-text-stroke: 2px black;
+    animation-direction: alternate;
+}

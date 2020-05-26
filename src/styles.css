@@ -66,7 +66,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -3894,8 +3893,8 @@ input[type=button].btn-block {
 }
 
 .nav-link {
-  display: block;
   padding: 0.5rem 1rem;
+  color: tomato;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -6069,7 +6068,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: rgb(184, 63, 33) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -7727,9 +7726,14 @@ button.bg-dark:focus {
   padding: 3rem !important;
 }
 
-.pt-5,
-.py-5 {
+.pt-5
+ {
   padding-top: 3rem !important;
+}
+
+.py-5{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pr-5,
@@ -7737,8 +7741,7 @@ button.bg-dark:focus {
   padding-right: 3rem !important;
 }
 
-.pb-5,
-.py-5 {
+.pb-5{
   padding-bottom: 3rem !important;
 }
 
@@ -10117,4 +10120,9 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+@font-face{
+  font-family: caligraf;
+  src: url(assets/Fonts/Caligraf-Bold_PERSONAL_USE_ONLY.ttf);
 }
