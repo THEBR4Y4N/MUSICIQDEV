@@ -356,6 +356,9 @@ firebase/firestore
 font-awesome
 (OFL-1.1 AND MIT)
 
+ngx-spinner
+MIT
+
 regenerator-runtime
 MIT
 MIT License
