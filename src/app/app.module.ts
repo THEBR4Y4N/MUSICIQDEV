@@ -15,7 +15,7 @@ import { environment} from '../environments/environment';
 import { AngularFireModule} from 'angularfire2';
 import { AngularFireAuthModule} from 'angularfire2/auth';
 import { AngularFirestoreModule} from 'angularfire2/firestore';
-
+import {NgxSpinnerModule} from 'ngx-spinner'
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +34,8 @@ import { AngularFirestoreModule} from 'angularfire2/firestore';
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    NgxSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

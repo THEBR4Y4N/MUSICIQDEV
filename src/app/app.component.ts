@@ -1,4 +1,4 @@
-import { Component,HostBinding } from '@angular/core';
+import { Component,HostBinding,OnInit} from '@angular/core';
 import {
   trigger,
   state,
@@ -7,6 +7,7 @@ import {
   transition,
   // ...
 } from '@angular/animations';
+import {NgxSpinnerService} from 'ngx-spinner'
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,20 @@ import {
     // animation triggers go here
   ]
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'MusicIQ';
+  constructor(private spinnerService:NgxSpinnerService){
+
+  }
+  ngOnInit(){
+    this.spinner();
+  }
+  
+  spinner(): void{
+    this.spinnerService.show();
+    setTimeout(() => {
+      this.spinnerService.hide();
+    },3000)
+  }
+
 }
