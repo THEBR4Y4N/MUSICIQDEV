@@ -15,7 +15,9 @@ import { environment} from '../environments/environment';
 import { AngularFireModule} from 'angularfire2';
 import { AngularFireAuthModule} from 'angularfire2/auth';
 import { AngularFirestoreModule} from 'angularfire2/firestore';
-import {NgxSpinnerModule} from 'ngx-spinner'
+import {NgxSpinnerModule} from 'ngx-spinner';
+import { PrivacyComponent } from './components/privacy/privacy.component';
+import { TeamComponent } from './components/team/team.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,9 @@ import {NgxSpinnerModule} from 'ngx-spinner'
     ArticulosComponent,
     DocumentosComponent,
     ContactoComponent,
-    AboutComponent
+    AboutComponent,
+    PrivacyComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
